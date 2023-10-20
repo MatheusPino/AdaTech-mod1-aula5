@@ -1,0 +1,43 @@
+/* ---------------- DESAFIO 2 ---------------- */
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0 auto;
+}
+
+tr,
+th,
+td {
+	border: 1px solid #000;
+	padding: 8px;
+	text-align: center;
+	font-weight: bold;
+}
+
+thead tr:first-child {
+	background-color: violet;
+}
+
+thead tr:last-child :not(:last-child),
+tbody tr:last-child :first-child {
+	background-color: red;
+}
+
+thead tr:last-child :last-child,
+tbody tr:first-child :last-child {
+	background-color: orangered;
+}
+
+tbody tr:first-child :first-child {
+	background-color: greenyellow;
+}
+
+tbody tr:first-child :nth-child(2),
+tbody tr:last-child :nth-child(2) {
+	background-color: gray;
+}
+
+tbody tr:last-child :last-child {
+	background-color: blue;
+}

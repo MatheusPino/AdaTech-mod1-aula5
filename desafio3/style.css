@@ -1,0 +1,44 @@
+/* ---------------- DESAFIO 3 ---------------- */
+body{
+	margin: 0;
+}
+
+:root{
+	--width-total-caixa: 102px;
+}
+
+
+.box1 {
+	height: 100px;
+	width: 100px;
+	background: lightblue;
+	border: 1px solid black;
+	position: absolute;
+}
+
+.box2 {
+	height: 100px;
+	width: 100px;
+	background: lightcoral;
+	border: 1px solid black;
+	left: var(--width-total-caixa);
+	position: absolute;
+}
+
+.box3 {
+	height: 100px;
+	width: 100px;
+	background: lightcyan;
+	border: 1px solid black;
+	left: calc(var(--width-total-caixa)*2);
+	position: absolute;
+}
+
+.box4 {
+	height: 100px;
+	width: 100px;
+	background: lightgoldenrodyellow;
+	border: 1px solid black;
+	left: calc(var(--width-total-caixa)*3);
+	position: absolute;
+}
